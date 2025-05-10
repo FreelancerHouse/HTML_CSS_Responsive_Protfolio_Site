@@ -1,0 +1,234 @@
+/*Basic CSS Start*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(/Img/bg_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 17px;
+    font-weight: 400px;
+    line-height: 1.6;
+}
+
+.container{
+    padding: 0 15%;
+}
+a{
+    font-weight: 500px;
+}
+
+
+.theme-button{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding: 16px 32px;
+    margin-top: 30px;
+    border-radius: 50px;
+    transform: 0.5s;
+    font-size: 30px;
+}
+.theme-button:hover{
+    background-color: rebeccapurple;
+    color: black;
+}
+
+.theme-button-small{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    transform: 0.5s;
+    font-size: 16px;
+}
+.theme-button-small:hover{
+    background-color: rebeccapurple;
+    color: black;
+}
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section-heading h3{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 16px;
+}
+.section-heading h2{
+    text-transform: capitalize;
+    color: black;
+    font-size: 40px;
+}
+/*Basic CSS END*/
+
+/*Header Area CSS Start*/
+.header-area{
+    padding: 45px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h1{
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.main-nav a{
+    text-decoration: none;
+    color: blueviolet;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 40px;
+    transform: 0.5s;
+    font-size: 20px;
+
+}
+.main-nav a:hover{
+    color: blue;
+}
+/*Header Area CSS END*/
+
+/*Hero Area CSS Start*/
+.hero-area{
+    padding-top: 130px;
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-text h2{
+    font-size: 72px;
+}
+.hero-text p{
+    font-size: 18px;
+}
+.hero-image img{
+    height: 400px;
+    width: auto;
+}
+
+/*Hero Area CSS END*/
+
+/*About Area CSS Start*/
+.about-area{
+    padding: 220px 0;
+    color: black;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-image img{
+    height: 400px;
+    width: auto;
+}
+.about-image{
+    flex: 1;
+}
+.about-text{
+    flex: 1;
+}
+.about-area h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+/*About Area CSS END*/
+
+/*Service Area Start*/
+.service-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.single-content{
+    background: rgba(125, 14, 14, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    color: rgb(32, 29, 29);
+}
+.single-content h3{
+    font-size: 24px;
+    margin bottom: 15px;
+}
+
+/*Service Area END*/
+/*Contract Area Start*/
+.contract-area{
+    margin-top: 80px;
+}
+
+.contract-content form{
+    display: grid;
+    gap: 15px;
+    grid-template-areas:
+    "f l"
+    "e p"
+    "m m"
+    "s s"
+    ;
+}
+#first-name{
+    grid-area: f;
+}
+#last-name{
+    grid-area: l;
+}
+#email-address{
+    grid-area: e;
+}
+#phone-number{
+    grid-area: p;
+}
+#message{
+    grid-area: m;
+}
+#submit{
+    grid-area: s;
+    background-color: blue;
+    cursor: pointer;
+}
+.contract-content input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    padding: 12px;
+    background-color: white;
+    border: 5px solid #f0f0f0;
+}
+.contract-content textarea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    padding: 12px;
+    background-color: white;
+    border: 5px solid #f0f0f0;
+}
+/*Contract Area END*/
+/*footer area start*/
+.footer-area{
+    padding: 45px 0;
+    text-align: center;
+    background-color: #231162;
+    border-top: 1px solid #231162;
+    margin-top: 20px;
+    color: white;
+}
+/*footer Area END*/
